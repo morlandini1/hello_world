@@ -6,9 +6,19 @@ void main() {
 
 class MyApp extends StatelessWidget {
   @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: HomeWidget(),
+    );
+  }
+}
+
+  class HomeWidget extends StatelessWidget {
+     @override
   Widget build(BuildContext context){
     return MaterialApp(
-      home: Center(child: Text('Flutterando'),),
-    );
+      home: Center(
+        child: Text('Flutterando'),
+    ));
   }
 }
