@@ -28,7 +28,9 @@ class MyApp extends StatelessWidget {
           child: Text('Flutterando'),
           ),
           floatingActionButton: FloatingActionButton(
+            child: Icon(Icons.add),
             onPressed: () {
+              print('clicou');
             
           
             },
