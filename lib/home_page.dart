@@ -7,17 +7,15 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context){
     return  Scaffold(
       appBar: AppBar(
-        title: Text('Home'),
+        title: const Text('Home'),
       ),
-        body: Center(
-          child: Text('Flutterando'),
+        body: const Center(
+          child: Text('Flutterando 0'),
           ),
           floatingActionButton: FloatingActionButton(
-            child: Icon(Icons.add),
+            child: const Icon(Icons.add),
             onPressed: () {
               print('clicou');
-            
-          
             },
           ),
       );
