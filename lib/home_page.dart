@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
           floatingActionButton: FloatingActionButton(
             child: const Icon(Icons.add),
             onPressed: () {
-              print('clicou ');
+              print('clicou');
             },
           ),
       );
