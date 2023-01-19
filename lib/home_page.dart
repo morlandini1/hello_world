@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
         title: const Text('Home'),
       ),
         body: const Center(
-          child: Text('Flutterand'),
+          child: Text('Flutterando'),
           ),
           floatingActionButton: FloatingActionButton(
             child: const Icon(Icons.add),
